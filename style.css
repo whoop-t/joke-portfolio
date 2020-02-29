@@ -120,6 +120,11 @@ main {
   transform: scale(1.3);
 }
 
+.video {
+  width: 100%;
+  height: 100%;
+}
+
 /***************** Small screens *********************************/
 @media only screen and (max-device-width: 768px) {
   .navbar {
@@ -157,8 +162,26 @@ main {
   }
 }
 
+/************************************ Laptops ************************************/
+@media only screen and (min-device-width: 768px) and (max-device-width: 1080px) {
+  .navbar {
+    top: 0;
+    width: 5rem;
+    height: 100vh;
+  }
+  .logo {
+    margin-bottom: 0rem;
+  }
+  .nav-link {
+    height: 4rem;
+  }
+  .nav-item:last-child {
+    display: none;
+  }
+}
+
 /************************************* Large screens *****************************/
-@media only screen and (min-device-width: 768px) {
+@media only screen and (min-device-width: 1080px) {
   .navbar {
     top: 0;
     width: 5rem;
@@ -171,9 +194,5 @@ main {
 
   .navbar:hover .link-text {
     display: inline;
-  }
-  .video {
-    width: 100%;
-    height: 100%;
   }
 }
