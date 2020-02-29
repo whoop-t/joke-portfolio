@@ -169,6 +169,9 @@ main {
     width: 5rem;
     height: 100vh;
   }
+  .navbar:hover {
+    width: 16rem;
+  }
   .logo {
     margin-bottom: 0rem;
   }
