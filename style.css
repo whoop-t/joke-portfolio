@@ -172,6 +172,9 @@ main {
   .navbar:hover {
     width: 16rem;
   }
+  .navbar:hover .link-text {
+    display: inline;
+  }
   .logo {
     margin-bottom: 0rem;
   }
