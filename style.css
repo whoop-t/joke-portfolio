@@ -87,8 +87,10 @@ main {
 }
 
 .nav-link svg {
+  max-width: 2.5rem;
   min-width: 2rem;
   margin: 0 1.5rem;
+  transition: transform var(--transition-speed);
 }
 
 .fa-secondary {
