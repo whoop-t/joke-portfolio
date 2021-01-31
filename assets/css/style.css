@@ -1,6 +1,6 @@
 :root {
   font-size: 16px;
-  font-family: 'Open Sans';
+  font-family: 'Roboto';
   --text-primary: #b6b6b6;
   --text-secondary: #ececec;
   --bg-primary: #23232e;
@@ -10,10 +10,11 @@
 }
 
 body {
-  color: black;
-  background-color: black;
+  color: #ffffff;
+  background-color: #2e3141;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 body::-webkit-scrollbar {
@@ -204,4 +205,11 @@ main {
   .navbar:hover .link-text {
     display: inline;
   }
+}
+
+/* dots */
+#canvas {
+  /* height: 100%; */
+  position: absolute;
+  z-index: -1;
 }

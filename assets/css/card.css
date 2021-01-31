@@ -1,0 +1,59 @@
+.main-card {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-left: 15%;
+}
+
+.main-card > .inner > h1 {
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 1.5;
+  margin: 0 0 0.5em 0;
+  font-size: 2.75rem;
+}
+.main-card > .inner > h2 {
+  font-size: 2rem;
+}
+
+#skills-wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, auto);
+  row-gap: 5px;
+  column-gap: 20px;
+  font-size: 18px;
+}
+
+.inner-skills {
+  display: flex;
+  margin-left: 3.5rem;
+  flex-direction: column;
+}
+
+/***************** Small screens *********************************/
+@media only screen and (max-device-width: 768px) {
+  .main-card {
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 0;
+  }
+  .main-card > .inner > h1 {
+    font-size: 5rem;
+  }
+  .main-card > .inner > h2 {
+    font-size: 5rem;
+  }
+  .main-card > .inner {
+    margin-bottom: 6rem;
+  }
+
+  #skills-wrapper {
+    font-size: 2.5rem;
+  }
+
+  .inner-skills > h2 {
+    font-size: 3rem;
+  }
+}
