@@ -20,5 +20,3 @@ skills.forEach(skill => {
   newEl.innerHTML = skill;
   el.appendChild(newEl);
 });
-
-console.log(el);
