@@ -89,7 +89,7 @@ body {
   transform: rotate(90deg);
 }
 .arrow__body::before {
-  content: 'projects';
+  content: 'work/fun';
   position: absolute;
   bottom: calc(30vh + 1vh);
   left: calc(10vw - 5rem);
